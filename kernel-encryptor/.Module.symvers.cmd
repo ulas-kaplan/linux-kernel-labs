@@ -1,0 +1,1 @@
+cmd_/home/ulas/kernel-dev/kernel-encryptor/Module.symvers := sed 's/\.ko$$/\.o/' /home/ulas/kernel-dev/kernel-encryptor/modules.order | scripts/mod/modpost -m -a  -o /home/ulas/kernel-dev/kernel-encryptor/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-5.15.0-170-generic/include",
+                "/usr/src/linux-headers-5.15.0-170-generic/arch/arm64/include",
+                "/usr/src/linux-headers-5.15.0-170-generic/include",
+                "/usr/src/linux-headers-5.15.0-170-generic/arch/arm64/include",
+                "/usr/src/linux-headers-5.15.0-170-generic/arch/arm64/include/generated",
+                "/usr/src/linux-headers-5.15.0-170-generic/include/uapi",
+                "/usr/src/linux-headers-5.15.0-170-generic/arch/arm64/include/uapi",
+                "/usr/src/linux-headers-5.15.0-170-generic/arch/arm64/include/generated/uapi"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm64"
+        }
+    ],
+    "version": 4
+}
