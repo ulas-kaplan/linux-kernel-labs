@@ -1,1 +1,0 @@
-cmd_/home/ulas/kernel-dev/kernel-encryptor/encryptor.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/ulas/kernel-dev/kernel-encryptor/encryptor.ko /home/ulas/kernel-dev/kernel-encryptor/encryptor.o /home/ulas/kernel-dev/kernel-encryptor/encryptor.mod.o;  true

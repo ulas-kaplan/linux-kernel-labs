@@ -1,1 +1,0 @@
-cmd_/home/ulas/kernel-dev/kernel-encryptor/modules.order := {   echo /home/ulas/kernel-dev/kernel-encryptor/encryptor.ko; :; } | awk '!x[$$0]++' - > /home/ulas/kernel-dev/kernel-encryptor/modules.order
