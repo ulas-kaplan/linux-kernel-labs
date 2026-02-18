@@ -1,0 +1,1 @@
+savedcmd_/home/ulas/gpio_driver/gpio_driver.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/ulas/gpio_driver/gpio_driver.ko /home/ulas/gpio_driver/gpio_driver.o /home/ulas/gpio_driver/gpio_driver.mod.o /home/ulas/gpio_driver/.module-common.o
